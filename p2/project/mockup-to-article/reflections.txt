@@ -1,14 +1,14 @@
 You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
 
   * **What new skills have you learned?**
- 	 * Researching and figuring out how to use new tags.
- 	 * Translating a tree structure into markup.
- 	 * How to link to files using their path.
+ 	  * Researching and figuring out how to use new tags.
+ 	  * Translating a tree structure into markup.
+ 	  * How to link to files using their path.
   * **What has been easy?**
-  	 * 	Setting up Atom text editor and viewing changes in Chrome.
+  	 * Setting up Atom text editor and viewing changes in Chrome.
   * **What has been difficult?**
     * Haven't found anything particularly difficult - yet!
   * **How have you used the problem solving strategies from the first project to overcome challenges so far?**
-    *	 When I found something I hadn't come across before, I used Google and Mozilla Dveloper Network to find a reference to the tag.
+    *	When I found something I hadn't come across before, I used Google and Mozilla Dveloper Network to find a reference to the tag.
 
 ---
