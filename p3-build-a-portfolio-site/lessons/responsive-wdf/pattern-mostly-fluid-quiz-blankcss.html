@@ -74,6 +74,35 @@
           color: blue;
         }
       }
+
+      @media screen and (min-width: 450px) {
+        .light_blue,
+        .green {
+          width: 50%;
+        }
+      }
+
+      @media screen and (min-width: 550px) {
+        .red {
+          width: 33.33%;
+        }
+        .orange {
+          width: 66.66%;
+        }
+      } 
+
+    @media screen and (min-width: 800px){
+      .container {
+        width: 800px;
+        margin: 0 auto;
+      }
+      .red {
+        order: 5;
+      }
+      .orange {
+        order: 4;
+      }
+    }
     </style>
   </head>
   <body>
