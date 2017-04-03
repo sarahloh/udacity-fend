@@ -132,6 +132,12 @@ main {
  * Content
  *
  */
+.content,
+.scores-weather-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 
 /*
@@ -213,6 +219,7 @@ main {
  */
 
 .scores {
+  width: 100%;
   padding-top: 1em;
 }
 
@@ -260,6 +267,7 @@ main {
  */
 
 .weather {
+  width: 100%;
   padding: 1em;
 }
 
@@ -366,4 +374,64 @@ footer a {
   text-decoration: none;
   color: #333;
   padding: 1.5em;
+}
+
+/*
+ * Media Queries
+*/
+@media screen and (min-width: 400px) {
+  .hero,
+  .top-news,
+  .scores-weather-content,
+  .recent-news {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .hero,
+  .top-news,
+  .scores,
+  .weather {
+    width: 50%;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+  .hero {
+    width: 66.66%;
+  }
+  
+  .top-news {
+    width: 33.33%
+  }
+  
+  .scores,
+  .weather {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .scores,
+  .weather {
+    width: 100%;
+  }
+  
+  .scores-weather-content {
+    width: 33.33%;
+  }
+
+  .recent-news {
+    width: 66.66%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
